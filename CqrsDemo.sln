@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsDemo", ".\CqrsDemo\CqrsDemo.csproj", "{05259F04-286B-44D4-B309-9C4A267BA884}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", ".\Services\Services.csproj", "{7FE90607-FEB0-4EF4-ACC4-ED1ADEC16286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05259F04-286B-44D4-B309-9C4A267BA884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05259F04-286B-44D4-B309-9C4A267BA884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05259F04-286B-44D4-B309-9C4A267BA884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05259F04-286B-44D4-B309-9C4A267BA884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE90607-FEB0-4EF4-ACC4-ED1ADEC16286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE90607-FEB0-4EF4-ACC4-ED1ADEC16286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE90607-FEB0-4EF4-ACC4-ED1ADEC16286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE90607-FEB0-4EF4-ACC4-ED1ADEC16286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {866A1F8B-C093-443D-9C66-215002DF70E0}
+	EndGlobalSection
+EndGlobal
