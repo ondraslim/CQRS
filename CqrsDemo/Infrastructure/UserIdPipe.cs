@@ -5,7 +5,7 @@ using Services.Models;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CqrsDemo.Infrastructure
+namespace WebApi.Infrastructure
 {
     public class UserIdPipe<TIn, TOut> : IPipelineBehavior<TIn, TOut>
     {

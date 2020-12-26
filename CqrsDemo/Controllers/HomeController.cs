@@ -7,7 +7,7 @@ using Services.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CqrsDemo.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("Cars")]

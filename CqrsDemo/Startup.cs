@@ -1,4 +1,3 @@
-using CqrsDemo.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,8 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Services.Cars.Queries;
+using WebApi.Infrastructure;
 
-namespace CqrsDemo
+namespace WebApi
 {
     public class Startup
     {
